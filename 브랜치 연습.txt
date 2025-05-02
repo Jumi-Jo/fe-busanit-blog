@@ -9,6 +9,9 @@ git fetch origin
 git checkout 5-메인대시보드-작업
 
 
+Microsoft Windows [Version 10.0.19045.5737]
+(c) Microsoft Corporation. All rights reserved.
+
 D:\조주미\06_Git & Github\브랜치 연습>git clone https://github.com/Jumi-Jo/fe-busanit-blog.git .
 Cloning into '.'...
 remote: Enumerating objects: 3, done.
@@ -49,4 +52,80 @@ Deleted branch 1-로그인-페이지-작업 (was 8f1af59).
 D:\조주미\06_Git & Github\브랜치 연습>git branch
 * main
 
-D:\조주미\06_Git & Github\브랜치 연습>
+D:\조주미\06_Git & Github\브랜치 연습>git branch
+* main
+
+D:\조주미\06_Git & Github\브랜치 연습>git fetch origin
+
+D:\조주미\06_Git & Github\브랜치 연습>git checkout 3-비밀번호-찾기
+branch '3-비밀번호-찾기' set up to track 'origin/3-비밀번호-찾기'.
+Switched to a new branch '3-비밀번호-찾기'
+
+D:\조주미\06_Git & Github\브랜치 연습>git branch
+* 3-비밀번호-찾기
+  main
+
+D:\조주미\06_Git & Github\브랜치 연습>git branch
+* 3-비밀번호-찾기
+  main
+
+D:\조주미\06_Git & Github\브랜치 연습>git checkout main
+Switched to branch 'main'
+Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+D:\조주미\06_Git & Github\브랜치 연습>git pull
+Updating 6bfb18a..d35773f
+Fast-forward
+ password.html                                      | 11 +++++
+ ...6\234\354\271\230 \354\227\260\354\212\265.txt" | 49 ++++++++++++++++++++++
+ 2 files changed, 60 insertions(+)
+ create mode 100644 password.html
+ create mode 100644 "\353\270\214\353\236\234\354\271\230 \354\227\260\354\212\265.txt"
+
+D:\조주미\06_Git & Github\브랜치 연습>git branch -d 3-비밀번호-찾기
+Deleted branch 3-비밀번호-찾기 (was d96bdb1).
+
+D:\조주미\06_Git & Github\브랜치 연습>git branch
+* main
+
+D:\조주미\06_Git & Github\브랜치 연습>git branch
+* main
+
+D:\조주미\06_Git & Github\브랜치 연습>git fetch origin
+
+D:\조주미\06_Git & Github\브랜치 연습>git checkout 5-메인대시보드-작업
+branch '5-메인대시보드-작업' set up to track 'origin/5-메인대시보드-작업'.
+Switched to a new branch '5-메인대시보드-작업'
+
+D:\조주미\06_Git & Github\브랜치 연습>git branch
+* 5-메인대시보드-작업
+  main
+
+D:\조주미\06_Git & Github\브랜치 연습>git branch
+* 5-메인대시보드-작업
+  main
+
+D:\조주미\06_Git & Github\브랜치 연습>git checkout main
+Switched to branch 'main'
+Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+D:\조주미\06_Git & Github\브랜치 연습>git pull
+Updating 4f6e4d0..a49aa71
+Fast-forward
+ dashboard.html | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+ create mode 100644 dashboard.html
+
+D:\조주미\06_Git & Github\브랜치 연습>git branch
+  5-메인대시보드-작업
+* main
+
+D:\조주미\06_Git & Github\브랜치 연습>git branch -d  5-메인대시보드-작업
+Deleted branch 5-메인대시보드-작업 (was 9c5f0c0).
+
+D:\조주미\06_Git & Github\브랜치 연습>git branch
+* main
+
+D:\조주미\06_Git & Github\브랜치 연습>  
