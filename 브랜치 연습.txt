@@ -14,6 +14,11 @@ git checkout 7-서브1-작업
 git fetch origin
 git checkout 9-연습01
 
+git fetch origin
+git checkout 11-aa02
+
+git fetch origin
+git checkout 13-bb01
 
 Microsoft Windows [Version 10.0.19045.5737]
 (c) Microsoft Corporation. All rights reserved.
