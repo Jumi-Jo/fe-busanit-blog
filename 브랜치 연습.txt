@@ -5,6 +5,9 @@ git checkout 1-로그인-페이지-작업
 git fetch origin
 git checkout 3-비밀번호-찾기
 
+git fetch origin
+git checkout 5-메인대시보드-작업
+
 
 D:\조주미\06_Git & Github\브랜치 연습>git clone https://github.com/Jumi-Jo/fe-busanit-blog.git .
 Cloning into '.'...
