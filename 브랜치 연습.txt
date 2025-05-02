@@ -1,0 +1,49 @@
+git fetch origin
+git checkout 1-로그인-페이지-작업
+
+
+git fetch origin
+git checkout 3-비밀번호-찾기
+
+
+D:\조주미\06_Git & Github\브랜치 연습>git clone https://github.com/Jumi-Jo/fe-busanit-blog.git .
+Cloning into '.'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+D:\조주미\06_Git & Github\브랜치 연습>git branch
+* main
+
+D:\조주미\06_Git & Github\브랜치 연습>git fetch origin
+
+D:\조주미\06_Git & Github\브랜치 연습>git fetch origin                 
+
+D:\조주미\06_Git & Github\브랜치 연습>git checkout 1-로그인-페이지-작업
+branch '1-로그인-페이지-작업' set up to track 'origin/1-로그인-페이지-작업'.
+Switched to a new branch '1-로그인-페이지-작업'
+
+D:\조주미\06_Git & Github\브랜치 연습>git branch
+* 1-로그인-페이지-작업
+  main
+
+D:\조주미\06_Git & Github\브랜치 연습>git checkout main
+Switched to branch 'main'
+Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+D:\조주미\06_Git & Github\브랜치 연습>git pull
+Updating cc4cb42..6bfb18a
+Fast-forward
+ login.html | 11 +++++++++++     
+ 1 file changed, 11 insertions(+)
+ create mode 100644 login.html   
+
+D:\조주미\06_Git & Github\브랜치 연습>git branch -d 1-로그인-페이지-작업
+Deleted branch 1-로그인-페이지-작업 (was 8f1af59).
+
+D:\조주미\06_Git & Github\브랜치 연습>git branch
+* main
+
+D:\조주미\06_Git & Github\브랜치 연습>
